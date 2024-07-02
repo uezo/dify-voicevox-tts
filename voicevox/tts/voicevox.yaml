@@ -1,0 +1,274 @@
+model: voicevox
+model_type: tts
+model_properties:
+  default_voice: '2'
+  voices:
+    - mode: '2'
+      name: '四国めたん - ノーマル'
+      language: ['ja-JP']
+    - mode: '0'
+      name: '四国めたん - あまあま'
+      language: ['ja-JP']
+    - mode: '6'
+      name: '四国めたん - ツンツン'
+      language: ['ja-JP']
+    - mode: '4'
+      name: '四国めたん - セクシー'
+      language: ['ja-JP']
+    - mode: '36'
+      name: '四国めたん - ささやき'
+      language: ['ja-JP']
+    - mode: '37'
+      name: '四国めたん - ヒソヒソ'
+      language: ['ja-JP']
+    - mode: '3'
+      name: 'ずんだもん - ノーマル'
+      language: ['ja-JP']
+    - mode: '1'
+      name: 'ずんだもん - あまあま'
+      language: ['ja-JP']
+    - mode: '7'
+      name: 'ずんだもん - ツンツン'
+      language: ['ja-JP']
+    - mode: '5'
+      name: 'ずんだもん - セクシー'
+      language: ['ja-JP']
+    - mode: '22'
+      name: 'ずんだもん - ささやき'
+      language: ['ja-JP']
+    - mode: '38'
+      name: 'ずんだもん - ヒソヒソ'
+      language: ['ja-JP']
+    - mode: '75'
+      name: 'ずんだもん - ヘロヘロ'
+      language: ['ja-JP']
+    - mode: '76'
+      name: 'ずんだもん - なみだめ'
+      language: ['ja-JP']
+    - mode: '8'
+      name: '春日部つむぎ - ノーマル'
+      language: ['ja-JP']
+    - mode: '10'
+      name: '雨晴はう - ノーマル'
+      language: ['ja-JP']
+    - mode: '9'
+      name: '波音リツ - ノーマル'
+      language: ['ja-JP']
+    - mode: '65'
+      name: '波音リツ - クイーン'
+      language: ['ja-JP']
+    - mode: '11'
+      name: '玄野武宏 - ノーマル'
+      language: ['ja-JP']
+    - mode: '39'
+      name: '玄野武宏 - 喜び'
+      language: ['ja-JP']
+    - mode: '40'
+      name: '玄野武宏 - ツンギレ'
+      language: ['ja-JP']
+    - mode: '41'
+      name: '玄野武宏 - 悲しみ'
+      language: ['ja-JP']
+    - mode: '12'
+      name: '白上虎太郎 - ふつう'
+      language: ['ja-JP']
+    - mode: '32'
+      name: '白上虎太郎 - わーい'
+      language: ['ja-JP']
+    - mode: '33'
+      name: '白上虎太郎 - びくびく'
+      language: ['ja-JP']
+    - mode: '34'
+      name: '白上虎太郎 - おこ'
+      language: ['ja-JP']
+    - mode: '35'
+      name: '白上虎太郎 - びえーん'
+      language: ['ja-JP']
+    - mode: '13'
+      name: '青山龍星 - ノーマル'
+      language: ['ja-JP']
+    - mode: '81'
+      name: '青山龍星 - 熱血'
+      language: ['ja-JP']
+    - mode: '82'
+      name: '青山龍星 - 不機嫌'
+      language: ['ja-JP']
+    - mode: '83'
+      name: '青山龍星 - 喜び'
+      language: ['ja-JP']
+    - mode: '84'
+      name: '青山龍星 - しっとり'
+      language: ['ja-JP']
+    - mode: '85'
+      name: '青山龍星 - かなしみ'
+      language: ['ja-JP']
+    - mode: '86'
+      name: '青山龍星 - 囁き'
+      language: ['ja-JP']
+    - mode: '14'
+      name: '冥鳴ひまり - ノーマル'
+      language: ['ja-JP']
+    - mode: '16'
+      name: '九州そら - ノーマル'
+      language: ['ja-JP']
+    - mode: '15'
+      name: '九州そら - あまあま'
+      language: ['ja-JP']
+    - mode: '18'
+      name: '九州そら - ツンツン'
+      language: ['ja-JP']
+    - mode: '17'
+      name: '九州そら - セクシー'
+      language: ['ja-JP']
+    - mode: '19'
+      name: '九州そら - ささやき'
+      language: ['ja-JP']
+    - mode: '20'
+      name: 'もち子さん - ノーマル'
+      language: ['ja-JP']
+    - mode: '66'
+      name: 'もち子さん - セクシー／あん子'
+      language: ['ja-JP']
+    - mode: '77'
+      name: 'もち子さん - 泣き'
+      language: ['ja-JP']
+    - mode: '78'
+      name: 'もち子さん - 怒り'
+      language: ['ja-JP']
+    - mode: '79'
+      name: 'もち子さん - 喜び'
+      language: ['ja-JP']
+    - mode: '80'
+      name: 'もち子さん - のんびり'
+      language: ['ja-JP']
+    - mode: '21'
+      name: '剣崎雌雄 - ノーマル'
+      language: ['ja-JP']
+    - mode: '23'
+      name: 'WhiteCUL - ノーマル'
+      language: ['ja-JP']
+    - mode: '24'
+      name: 'WhiteCUL - たのしい'
+      language: ['ja-JP']
+    - mode: '25'
+      name: 'WhiteCUL - かなしい'
+      language: ['ja-JP']
+    - mode: '26'
+      name: 'WhiteCUL - びえーん'
+      language: ['ja-JP']
+    - mode: '27'
+      name: '後鬼 - 人間ver.'
+      language: ['ja-JP']
+    - mode: '28'
+      name: '後鬼 - ぬいぐるみver.'
+      language: ['ja-JP']
+    - mode: '29'
+      name: 'No.7 - ノーマル'
+      language: ['ja-JP']
+    - mode: '30'
+      name: 'No.7 - アナウンス'
+      language: ['ja-JP']
+    - mode: '31'
+      name: 'No.7 - 読み聞かせ'
+      language: ['ja-JP']
+    - mode: '42'
+      name: 'ちび式じい - ノーマル'
+      language: ['ja-JP']
+    - mode: '43'
+      name: '櫻歌ミコ - ノーマル'
+      language: ['ja-JP']
+    - mode: '44'
+      name: '櫻歌ミコ - 第二形態'
+      language: ['ja-JP']
+    - mode: '45'
+      name: '櫻歌ミコ - ロリ'
+      language: ['ja-JP']
+    - mode: '46'
+      name: '小夜/SAYO - ノーマル'
+      language: ['ja-JP']
+    - mode: '47'
+      name: 'ナースロボ＿タイプＴ - ノーマル'
+      language: ['ja-JP']
+    - mode: '48'
+      name: 'ナースロボ＿タイプＴ - 楽々'
+      language: ['ja-JP']
+    - mode: '49'
+      name: 'ナースロボ＿タイプＴ - 恐怖'
+      language: ['ja-JP']
+    - mode: '50'
+      name: 'ナースロボ＿タイプＴ - 内緒話'
+      language: ['ja-JP']
+    - mode: '51'
+      name: '†聖騎士 紅桜† - ノーマル'
+      language: ['ja-JP']
+    - mode: '52'
+      name: '雀松朱司 - ノーマル'
+      language: ['ja-JP']
+    - mode: '53'
+      name: '麒ヶ島宗麟 - ノーマル'
+      language: ['ja-JP']
+    - mode: '54'
+      name: '春歌ナナ - ノーマル'
+      language: ['ja-JP']
+    - mode: '55'
+      name: '猫使アル - ノーマル'
+      language: ['ja-JP']
+    - mode: '56'
+      name: '猫使アル - おちつき'
+      language: ['ja-JP']
+    - mode: '57'
+      name: '猫使アル - うきうき'
+      language: ['ja-JP']
+    - mode: '58'
+      name: '猫使ビィ - ノーマル'
+      language: ['ja-JP']
+    - mode: '59'
+      name: '猫使ビィ - おちつき'
+      language: ['ja-JP']
+    - mode: '60'
+      name: '猫使ビィ - 人見知り'
+      language: ['ja-JP']
+    - mode: '61'
+      name: '中国うさぎ - ノーマル'
+      language: ['ja-JP']
+    - mode: '62'
+      name: '中国うさぎ - おどろき'
+      language: ['ja-JP']
+    - mode: '63'
+      name: '中国うさぎ - こわがり'
+      language: ['ja-JP']
+    - mode: '64'
+      name: '中国うさぎ - へろへろ'
+      language: ['ja-JP']
+    - mode: '67'
+      name: '栗田まろん - ノーマル'
+      language: ['ja-JP']
+    - mode: '68'
+      name: 'あいえるたん - ノーマル'
+      language: ['ja-JP']
+    - mode: '69'
+      name: '満別花丸 - ノーマル'
+      language: ['ja-JP']
+    - mode: '70'
+      name: '満別花丸 - 元気'
+      language: ['ja-JP']
+    - mode: '71'
+      name: '満別花丸 - ささやき'
+      language: ['ja-JP']
+    - mode: '72'
+      name: '満別花丸 - ぶりっ子'
+      language: ['ja-JP']
+    - mode: '73'
+      name: '満別花丸 - ボーイ'
+      language: ['ja-JP']
+    - mode: '74'
+      name: '琴詠ニア - ノーマル'
+      language: ['ja-JP']
+  word_limit: 120
+  audio_type: 'wav'
+  max_workers: 5
+pricing:
+  input: '0.0'
+  output: '0'
+  unit: '0.0'
+  currency: USD

@@ -1,0 +1,38 @@
+provider: voicevox
+label:
+  en_US: VOICEVOX
+description:
+  en_US: VOICEVOX
+background: "#a5d4ad"
+help:
+  title:
+    en_US: VOICEVOX Official Website
+  url:
+    en_US: https://voicevox.hiroshiba.jp
+supported_model_types:
+  - tts
+configurate_methods:
+  - predefined-model
+model_credential_schema:
+  model:
+    label:
+      en_US: Model Name
+    placeholder:
+      en_US: Enter your model name
+  credential_form_schemas:
+    - variable: voicevox_api_base
+      label:
+        en_US: API Base
+      type: text-input
+      required: true
+      placeholder:
+        en_US: Enter VOICEVOX API Base, e.g. https://your.voicevox.server:50021
+provider_credential_schema:
+  credential_form_schemas:
+    - variable: voicevox_api_base
+      label:
+        en_US: API Base
+      type: text-input
+      required: true
+      placeholder:
+        en_US: Enter VOICEVOX API Base, e.g. https://your.voicevox.server:50021
