@@ -264,7 +264,7 @@ model_properties:
     - mode: '74'
       name: '琴詠ニア - ノーマル'
       language: ['ja-JP']
-  word_limit: 120
+  word_limit: 40
   audio_type: 'wav'
   max_workers: 5
 pricing:
