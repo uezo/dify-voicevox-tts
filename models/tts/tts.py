@@ -63,7 +63,7 @@ class VoicevoxText2SpeechModel(TTSModel):
             audio_resp = client.post(api_base + "/synthesis", params={"speaker": voice}, json=audio_query, timeout=30.0)
             if isinstance(audio_resp.content, bytes):
                 return audio_resp.content
-     
+
     @property
     def _invoke_error_mapping(self) -> dict[type[InvokeError], list[type[Exception]]]:
         # TODO: Break down the errors

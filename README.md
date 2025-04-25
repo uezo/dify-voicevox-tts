@@ -15,13 +15,11 @@ docker cp /path/to/voicevox <container id>:/app/api/core/model_runtime/model_pro
 docker commit <container id>
 ```
 
-
 ## ✨ Add model
 
 Set up VOICEVOX in the list of model providers. The URL must be reachable from the inside of the API container. `http://127.0.0.1:50021` doesn't work without any network configurations.
 
 ![Add model](resources/settings.png)
-
 
 ## 🥳 Use TTS feature
 
@@ -30,7 +28,6 @@ Click [Features] > [+ Add Feature] and turn on `Text to Speech`.
 ![Add feature](resources/addfeature.png)
 
 Enjoy👍
-
 
 ## 🙏 I NEED YOUR CONTRIBUTION
 
