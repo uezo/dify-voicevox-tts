@@ -1,18 +1,27 @@
 import logging
-from core.model_runtime.entities.model_entities import ModelType
-from core.model_runtime.errors.validate import CredentialsValidateFailedError
-from core.model_runtime.model_providers.__base.model_provider import ModelProvider
+from collections.abc import Mapping
+
+from dify_plugin import ModelProvider
+from dify_plugin.entities.model import ModelType
+from dify_plugin.errors.model import CredentialsValidateFailedError
 
 logger = logging.getLogger(__name__)
 
 
-class VoicevoxProvider(ModelProvider):
-    def validate_provider_credentials(self, credentials) -> None:
+class VoicevoxModelProvider(ModelProvider):
+    def validate_provider_credentials(self, credentials: Mapping) -> None:
+        """
+        Validate provider credentials
+        if validate failed, raise exception
+
+        :param credentials: provider credentials, credentials form defined in `provider_credential_schema`.
+        """
         try:
             model_instance = self.get_model_instance(ModelType.TTS)
             model_instance.validate_credentials(
-                model="voicevox", credentials=credentials
-            )
+                model='voicevox',
+                credentials=credentials
+            )        
         except CredentialsValidateFailedError as ex:
             raise ex
         except Exception as ex:
