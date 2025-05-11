@@ -22,3 +22,12 @@ provider_credential_schema:
       required: true
       placeholder:
         en_US: Enter VOICEVOX API Base, e.g. https://your.voicevox.server:50021
+models:
+  tts:
+    predefined:
+      - "models/tts/*.yaml"
+extra:
+  python:
+    provider_source: provider/voicevox.py
+    model_sources:
+      - "models/tts/tts.py"

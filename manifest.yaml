@@ -1,0 +1,42 @@
+version: 0.0.1
+type: plugin
+author: uezo
+name: voicevox
+label:
+  en_US: voicevox
+  ja_JP: voicevox
+  zh_Hans: voicevox
+  pt_BR: voicevox
+description:
+  en_US: VOICEVOX text-to-speech custom model for Dify
+  ja_JP: VOICEVOX text-to-speech custom model for Dify
+  zh_Hans: VOICEVOX text-to-speech custom model for Dify
+  pt_BR: VOICEVOX text-to-speech custom model for Dify
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    model:
+      enabled: true
+      llm: false
+      text_embedding: false
+      rerank: false
+      tts: true
+      speech2text: false
+      moderation: false
+plugins:
+  models:
+    - provider/voicevox.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: null
+created_at: 2025-04-25T23:19:15.84143822+09:00
+privacy: PRIVACY.md
+verified: false
