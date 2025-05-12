@@ -4,17 +4,8 @@ An experimental implementation of VOICEVOX text-to-speech custom model for Dify.
 
 ## 📦 Installation
 
-- Download this repo.
-- Copy the voicevox directory to `api/core/model_runtime/model_providers` in the API server.
-- Restart the API server.
-
-If you are not able to build the API server container image yourself, you can copy the directory to the container and save it with the following steps:
-
-```sh
-docker cp /path/to/voicevox <container id>:/app/api/core/model_runtime/model_providers
-docker commit <container id>
-```
-
+If you want to install VOICEBOX plugin, download [dify-voicevox-tts.difypkg](https://github.com/yt-koike/dify-voicevox-tts/blob/main/) and upload it to your Dify.
+If you don't know how, please refer https://docs.dify.ai/en/plugins/quick-start/install-plugins#local-file-upload.
 
 ## ✨ Add model
 
