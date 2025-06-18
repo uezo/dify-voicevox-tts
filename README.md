@@ -6,7 +6,7 @@ An experimental implementation of VOICEVOX text-to-speech custom model for Dify.
 
 If you want to install VOICEVOX plugin, the fastest way is to install it via [Dify Marketplace](https://marketplace.dify.ai/).
 
-You can also manually download [dify-voicevox-tts.difypkg](https://github.com/yt-koike/dify-voicevox-tts/blob/main/) and upload it to your Dify.
+You can also manually download [voicevox-tts.difypkg](https://github.com/uezo/dify-voicevox-tts/blob/main/voicevox-tts.difypkg) and upload it to your Dify.
 If you don't know how to do so, please refer https://docs.dify.ai/en/plugins/quick-start/install-plugins#local-file-upload.
 
 ## ✨ Add model
